@@ -1,0 +1,50 @@
+/* * {
+    color: white;
+    margin: 0;
+} */
+
+.box {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* margin: 20px 0 20px; */
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+    border: 0.5px solid black;
+}
+
+.box1 {
+    color: blue;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.header {
+    height: 50px;
+    /* width: 50px; */
+    background-color: crimson;
+    margin: auto 0;
+    
+}
+
+
+.box2 {
+    color: cyan;
+    background-color: gray;
+    margin-top: 60px;
+}
+
+.box3 {
+    box-sizing: border-box;
+    /* margin: 50px auto; */
+    margin-left: auto;
+    overflow: scroll;
+}
+
+.parrafo {
+    background-color: beige;
+}

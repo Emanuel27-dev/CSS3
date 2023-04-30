@@ -1,0 +1,42 @@
+/* 1. */
+h2{
+    color: blue;
+}
+
+/* 2. */
+
+nav {
+    border: 1px solid black;
+}
+
+#section{
+    border: 1px solid crimson;
+}
+
+nav>section>h2 {
+    text-align: center;
+}
+
+.feliz {
+    color: darkblue;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href="https://alexcgdesign.com/inicio"] {
+    color: red;
+}
+
+a[href^="hsttps"] {
+    color: green;
+}
+
+a[href$=".org"]{
+    background: chocolate;
+}
+
+a[href*="alexcgdesign"] {
+    background: cornflowerblue;
+}

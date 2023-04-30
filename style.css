@@ -1,0 +1,12 @@
+.todo .lista{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.todo>.lista{
+    background-color: brown;
+}
+
+.primera + .sublista {
+    background-color: chocolate;
+}
