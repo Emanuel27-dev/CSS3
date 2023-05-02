@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border: 1px solid black;
+
+    /* granulando la propiedad border */
+    border-width: 8px 5px 10px 3px;
+    border-style: solid ridge; /*dotted -> punteado*/
+    border-color: green blue rebeccapurple;
+
+
+    border-top: 10px double crimson;
+}
+
+.card {
+    background-color: orange;
+    border: 1px solid black;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.imagen {
+    display: block;
+    height: 300px;
+    /* width: 300px; */
+    /* object-fit: cover; */
+    margin: 20px auto;
+    border: 8px ridge purple;
+    border-radius: 10px;
+
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.retoques {
+    border: none; /*Eliminando los bordes*/
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cta {
+    display: block;
+    width: 80px;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

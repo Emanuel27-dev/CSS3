@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+    padding: 45px 0;
+    background-color: rgba(0, 50, 125,0.8);
+    
+}
+
+.title {
+    text-align: center;
+}
+

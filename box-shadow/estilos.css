@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Arial';
+}
+
+.card {
+    width: 500px;
+    background-color: rgba(76, 76, 167, 0.637);
+    border: 1px solid transparent;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 30px 100px -20px black;
+}
+
+.img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px -20px black;
+}
+
+.title {
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    padding: 10px;
+}
+
+.cta {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(216, 16, 16);
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding: 8px 0px;
+    margin: 12px auto;
+    border-radius: 5px;
+}
+
+.gohan {
+
+    display: block;
+    margin: 80px auto;
+    width: 400px;
+    /* box-shadow: 5px 5px 10px 5px gold; */
+    filter: drop-shadow(10px 10px 10px gold
+    );
+
+}
