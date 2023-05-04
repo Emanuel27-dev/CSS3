@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 600px;
+    /* background-image: linear-gradient(to left, #2c536475, #203a4371, #0f202777), url(hero-kid.jpg); */
+    background-image:  linear-gradient(rgba(255, 255, 255,0),rgba(0, 0, 0, 1)),url(hero-kid.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+
+    background-attachment: fixed;
+    opacity: 0.954;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px 15px white;
+}
+
+.espacio {
+    height: 2000px;
+}
+
+.boton {
+    height: 47px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 20%;
+    margin: 70px auto;
+    background-color: rgba(75, 112, 143, 0.473);
+    background-image: url(home-icon.png);
+    background-repeat: no-repeat;
+    background-position: left  center;
+    background-size: 35px;
+    border-radius: 7px;
+    box-shadow: 0px 7px 30px 2px black;
+
+}
+
