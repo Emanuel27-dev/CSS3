@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* a[href="https://alexcdesign.com/blog"] {
+    color: black;
+}
+
+a[href="https://alexcdesign.com/blog"]:hover {
+    font-size: 2rem;
+    color: brown;
+    text-shadow: 2px 2px 10px black;
+    text-decoration: none;
+} */
+
+.enlace {
+    display: block;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #ebd1db;
+}
+
+.enlace:link { /*aplicando estilos para los elementos que no han sido visitados*/
+    background-color: burlywood;
+    color: black;
+}
+
+.enlace:visited { /*Aplicando estilos a los elementos que ya han sido visitados*/
+    background-color: crimson;
+    color: cornsilk;
+}
+
+.enlace:hover { /*Aplica estilos cuando pongo el cursos encima del elemento*/
+    background-color: azure;
+    color: black;
+
+}
+
+.enlace:active { /*aplica los estilos si das click sobre este*/
+    background-color: blue;
+}
+
+.event {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: crimson;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active {
+    padding: 23px;
+    transition: .2s;
+    box-shadow: 0px 4px 10px black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+    margin: 50px auto;
+    margin-top: 100px;
+    transition: .2s;
+}
+
+/* target: Aplica estilos al elemento que a sido apuntado o "targeteado" */
+.box:target {
+    background-color: steelblue;
+    margin-left: 600px;
+}
+
+
+.form {
+    width: 80%;
+    margin: 30px auto;
+    background-color: aquamarine;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+    padding: 30px;
+}
+
+.form__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+}
+
+input[type='text'],input[type='email'] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 5px;
+    border: none;
+    outline: none; /*deshabilita el borde cuando hago click en el elemento*/
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+}

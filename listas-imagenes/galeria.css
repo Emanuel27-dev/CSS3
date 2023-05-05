@@ -9,5 +9,25 @@ body {
 }
 
 .gallery {
-    
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery h2 {
+    margin: 40px 0;
+    font-size: 35px;
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+
+.container {
+    font-size: 0;
+}
+
+.container img {
+    width: 30%;
+    height: 280px;
+    object-fit: cover;
+    cursor: pointer;
 }
