@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 500px;
+    height: 400px;
+    margin: 40px auto;
+    border: 3px dashed steelblue;
+}
+
+div {
+    background-color: rgba(70, 131, 180, 0.486);
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+/* position relative: el espacio se conserva la moverlo, el padre tiene que tener una altura definida*/
+.uno {
+    position: relative;
+    top: 50%;
+}
+

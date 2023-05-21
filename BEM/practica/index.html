@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologia BEM</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        
+        .header {
+            background-color: rgba(128, 0, 128, 0.832);
+            color: white;
+            margin: 0 20px;
+        }
+
+        .header__titulo {
+            font-size: 2rem;
+            text-align: center;
+            /* border: 1px solid blue; */
+            padding: 15px 0;
+        }
+
+        .header__parrafo {
+            /* border: 2px solid black; */
+            padding: 10px;
+        }
+        
+        .header__parrafo--color {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        En la metodologia BEM tenemos 3 conceptos:
+
+        1. Bloques: basicamente son componentes de react
+        2. Elementos
+        3. Modificadores
+
+        Nota: se puede poner bloques dentro de bloques
+    -->
+    
+    <!-- <header class="header">
+        <div class="header__titulo">Hola mundo</div>
+        <p class="header__parrafo header__parrafo--color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam perspiciatis doloremque odit fuga aliquam praesentium? Iusto ex provident consequuntur suscipit illo est recusandae quo, commodi eius inventore, delectus nostrum corrupti!</p>
+
+        <h3 class="header__subtitulo"></h3> 
+    </header> -->
+
+    <div class="card">
+
+        <a href="#" class="card__link">
+            <img src="1.jpg" class="card__imagen">
+        </a>
+
+        <div class="card__textos">
+            <h3 class="card__titulo">
+                <a href="#" class="card__enlace-titulo">Lorem Ipsum Dolot Asimit</a>
+                <p class="card__extracto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, odio quae veniam neque adipisci ex minima facere error sapiente esse nesciunt architecto omnis. Enim maxime in ratione quisquam aliquam rerum.</p>
+
+                <a href="#" class="boton">
+                    <span class="boton__texto">Ver Mas</span>
+                    <i class="boton__icono"></i>
+                </a>
+
+            </h3>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>

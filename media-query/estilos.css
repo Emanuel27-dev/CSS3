@@ -1,0 +1,58 @@
+:root {
+    --color: crimson;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--color);
+    margin: 40px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* @media <media-type> and (expression) {
+
+} */
+
+/* Cuando ejecute la accion de imprimir en la misma pestaña de la pagina entonces, @media query hace su funcion, dando estilos */
+@media print {
+    .title {
+        color: steelblue;
+        font-size: 5rem;
+        text-align: right;
+        font-family: cursive;
+        text-align: center;
+    }
+}
+
+/* Este query solo se ejecutara cuando estemos en una pantalla y esta condicion se ejecutara siempre y cuando el viewport no rebase los 600px, es decir mientras la pantalla no sea mas grande que los 600px ejecutaremos los siguientes estilos*/
+
+
+/* Le voy a dar estilos hasta que su width sea de 600px */
+@media screen and (max-width:600px) {
+
+    :root {
+        --color: white;
+    }
+
+    .title {
+        background-color: black;
+        color: var(--color);
+        text-shadow: 1px 1px 5px wheat;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .title{
+        margin: 0; 
+        color: steelblue;
+        background-color: black;
+        height: 100vh;
+    }
+}

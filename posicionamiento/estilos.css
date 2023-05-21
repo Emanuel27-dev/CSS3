@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 450px;
+    height: 530px;
+    margin: 20px auto;
+    border: 5px solid crimson;
+    position: relative;
+}
+
+.box {
+    background-color: steelblue;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+/* todos los elementos del navegador por defecto son estaticos */
+.static {
+
+    position: static;
+}
+
+/* los elementos no pierden su flujo */
+.relative {
+    background-color: crimson;
+    position: relative;
+    left: 100px;
+    right: 100px; /*no funcion porque predomina el left*/
+    top: 0px;
+    bottom: 100px;
+}
+
+
+/* el elemento sale del flujo */
+/* Se posiciona en base a su padre, pero el padre debe tener la propiedad "position"*/
+.absolute {
+    background-color: purple;
+    position: absolute;
+    /* top: 350px; */
+    top: 0;
+    right: 0;
+}
+
+/* posicionamiento fixed o fijo */
+/* al igual que absolute, tambien sale del flujo */
+/* La diferencia con absolute es que se movera en referencia al viewport o body y se quedara fijo. */
+.fixed {
+    background-color: tomato;
+    position: fixed;
+    margin: 0;
+}

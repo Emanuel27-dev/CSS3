@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 90%;
+    max-width: 600px;
+    height: 600px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: flex-start; */
+
+}
+
+.item {
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* order: primero establacer los numeros, luego cambiar los ordenes */
+
+.item1 {
+    background-color: tomato;
+    order: 40;
+}
+
+.item2 {
+    background-color: darkblue;
+    order: 10;
+}
+
+.item3 {
+    background-color: crimson;
+    order: 20;
+}
+
+.item4 {
+    background-color: steelblue;
+    order: 30;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .item1 {
+        order: 10;
+    }
+
+    .item2 {
+        order: 40;
+    }
+}
+

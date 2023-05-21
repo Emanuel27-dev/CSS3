@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
+.box {
+    background-color: steelblue;
+    width: 55px;
+    height: 55px;
+    margin: 10px 0;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    border: 3px solid red;
+    padding: 10px 0;
+    margin-left: -5px;
+}
+
+/* Filtrar elementos por su tipo (h1, a, p, etc) */
+/* Se selecciona al elemento unico dentro de su padre */
+.box:only-of-type{
+    background-color: tomato;
+}
+
+/* Selecciona al primer elemento de su tipo dentro de su contenedor */
+.box:first-of-type {
+    background-color: purple;
+}
+
+/* Seleccionando al ultimo elemento de su tipo dentro de su contenedor padre */
+.box:last-of-type {
+    background-color: rgba(0, 128, 0, 0.459);
+}
+
